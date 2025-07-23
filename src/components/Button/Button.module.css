@@ -1,0 +1,21 @@
+.btn{
+
+    padding: 10px;
+    border-radius: 50px;
+    width: 280px;
+    margin: 5px;
+    transition: .3s ease-in-out;
+    font-weight: 600;
+    color: #fff;
+    background-color: #F25D07;
+    outline: none;
+    border: 1px solid #F25D07;
+    box-shadow: 0 4px 12px rgba(242, 93, 7, 0.4);
+
+}
+
+.btn:hover{
+
+    transform: scale(1.05);
+
+}

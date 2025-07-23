@@ -1,0 +1,95 @@
+.header {
+  background-color: #0d0d0d;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navbar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navContent ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  gap: 1rem;
+}
+
+.navContent li {
+  display: flex;
+  align-items: center;
+}
+
+.navContent img {
+  height: 60px;
+}
+
+.menuToggle {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.menuToggle span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  margin-bottom: 4px;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+}
+
+.mobileMenu {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .navContent ul {
+    display: none;
+  }
+
+  .menuToggle {
+    display: flex;
+  }
+
+  .mobileMenu {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 99%;
+    left: 0;
+    width: 100%;
+    background-color: #0d0d0d;
+    padding: 1rem;
+    gap: 1rem;
+    animation: fadeIn 0.3s ease-in-out;
+  }
+
+  .mobileMenu a,
+  .mobileMenu button {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,52 @@
+.hero {
+  padding-top: 65px;
+  background-image: url('../../assets/hero_bg.webp');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  color: #fff;
+  overflow-x: hidden;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  padding: 0 1.5rem;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.heroLogo {
+  position: absolute;
+  right: -40%;
+  transform: translateY(-50%);
+  max-width: 600px;
+  width: 120%;
+  pointer-events: none;
+  user-select: none;
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.3));
+  transition: transform 0.3s ease;
+}
+
+@media (max-width: 768px) {
+
+  .hero{
+    
+    height: 70vh;
+
+  }
+
+  .overlay{
+
+    text-align: center;
+
+  }
+
+  .heroLogo {
+    display: none;
+  }
+}
