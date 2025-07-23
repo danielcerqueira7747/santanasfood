@@ -4,9 +4,9 @@ export default function Button({ url, ariaLabel, value, id, icon: Icon }){
 
     return (
 
-        <a href={url} aria-label={ariaLabel} target='_blank' rel="noopener noreferrer">
+        <a href={url} id={id} aria-label={ariaLabel} target='_blank' rel="noopener noreferrer">
 
-            <button id={id} className={`${style.btn}`}>
+            <button className={`${style.btn}`}>
 
                 {value} {Icon && <Icon />}
 
