@@ -104,7 +104,7 @@ export default function ProductSection() {
       <Button
         url="https://menu.beefood.com.br/santanasburguerseporcoes/"
         ariaLabel="Link para Cardápio"
-        id="btn-menu-cta"
+        id="btn-menu-product"
         value="Ver cardápio"
         icon={MdOutlineRestaurantMenu}
       />

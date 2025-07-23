@@ -48,7 +48,7 @@ export default function HeroSection() {
                   classname: "btn btn-primary"
                 }, {
                   url: "https://menu.beefood.com.br/santanasburguerseporcoes/",
-                  id: "btn-menu-cta",
+                  id: "btn-menu-hero",
                   ariaLabel: "Link para Cardápio",
                   value: "Faça seu pedido",
                   icon: MdOutlineRestaurantMenu,
