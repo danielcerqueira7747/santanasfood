@@ -35,7 +35,7 @@ export default function Navbar() {
                             <Button
                                 url='https://menu.beefood.com.br/santanasburguerseporcoes/'
                                 ariaLabel='Link para Cardápio'
-                                id='btn-menu-navbar'
+                                id='btn-menu-nav'
                                 value='Faça seu pedido'
                                 icon={MdOutlineRestaurantMenu}
                             />
@@ -43,7 +43,7 @@ export default function Navbar() {
                         <li>
                             <Button
                                 url="https://www.google.com/maps?q=R.%20Nelson%20Nunes%20de%20Azevedo%2C%20186%20-%20Jardim%20Caraguat%C3%A1%2C%20Cubat%C3%A3o%20-%20SP%2C%2011535-055"
-                                id="btn-address"
+                                id="btn-address-nav"
                                 ariaLabel="Abrir endereço em uma nova aba"
                                 value="Venha nos conhecer"
                                 icon={FaMap}
@@ -57,13 +57,13 @@ export default function Navbar() {
                         <Button
                             url='https://menu.beefood.com.br/santanasburguerseporcoes/'
                             ariaLabel='Link para Cardápio'
-                            id='btn-menu-cta-mobile'
+                            id='btn-menu-nav'
                             value='Faça seu pedido'
                             icon={MdOutlineRestaurantMenu}
                         />
                         <Button
                             url="https://www.google.com/maps?q=R.%20Nelson%20Nunes%20de%20Azevedo%2C%20186%20-%20Jardim%20Caraguat%C3%A1%2C%20Cubat%C3%A3o%20-%20SP%2C%2011535-055"
-                            id="btn-address-mobile"
+                            id="btn-address-nav"
                             ariaLabel="Abrir endereço em uma nova aba"
                             value="Venha nos conhecer"
                             icon={FaMap}
