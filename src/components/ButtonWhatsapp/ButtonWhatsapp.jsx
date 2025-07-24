@@ -10,7 +10,7 @@ export default function ButtonWhatsapp(){
 
             <a 
                 id='btn-whatsapp-fixed'
-                href="https://api.whatsapp.com/send?phone=5513998060680" 
+                href="https://api.whatsapp.com/send?phone=5513997227991" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 aria-label="WhatsApp"

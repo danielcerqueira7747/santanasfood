@@ -31,7 +31,7 @@ export default function CTASection() {
               transition={{ duration: 0.8, delay: 0.2 }}
             >
               <Button 
-                url='https://wa.me/5513998060680'
+                url='https://wa.me/5513997227991'
                 ariaLabel='Link para Whatsapp'
                 id='btn-wpp-cta'
                 value='Chame-nos no Whatsapp'
