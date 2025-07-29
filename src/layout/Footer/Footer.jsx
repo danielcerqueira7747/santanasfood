@@ -26,7 +26,7 @@ export default function Footer() {
 
           <div className={style.socialMedia}>
             <motion.a
-              href="https://wa.me/5513997227991"
+              href="https://wa.me/5513991462620"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2}}
